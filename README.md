@@ -14,7 +14,7 @@ EEW_RPG 是一款結合 LLM 與 TRPG/Dungeon 冒險機制的遊戲專案。
 ```bash
 cd server
 npm install
-cp .env.example .env # 設定您的 GEMINI_API_KEY 與 Supabase 連線資訊
+cp .env.example .env # 設定 GEMINI_API_KEY 與 Supabase 連線資訊
 npm run dev
 ```
 
