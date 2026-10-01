@@ -1,0 +1,5717 @@
+{
+  "summary": {
+    "total_files": 441,
+    "hex_tile_count": 214,
+    "overlay_object_count": 227,
+    "unmatched_hex_count": 0,
+    "unmatched_overlay_count": 0,
+    "connector_tile_count": 99,
+    "hex_category_breakdown": {
+      "blank": 5,
+      "coast": 11,
+      "path": 44,
+      "forest": 9,
+      "open": 34,
+      "mountain": 18,
+      "river": 44,
+      "ruin": 2,
+      "snow": 9,
+      "settlement": 13,
+      "water": 18,
+      "wetland": 7
+    },
+    "overlay_layer_breakdown": {
+      "decoration": 53,
+      "structure": 49,
+      "fx": 8,
+      "terrain_feature": 18,
+      "ui": 44,
+      "ui_marker": 50,
+      "object": 5
+    },
+    "foundation_tile_count": 115,
+    "terrain_overlay_count": 99
+  },
+  "hex_tiles": [
+    {
+      "tile_id": "hex_base_blank",
+      "filename": "Hex - Base (blank).png",
+      "terrain_key": "Base",
+      "category": "blank",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "blank"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_base_lush",
+      "filename": "Hex - Base (lush).png",
+      "terrain_key": "Base",
+      "category": "blank",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_base_ocean",
+      "filename": "Hex - Base (ocean).png",
+      "terrain_key": "Base",
+      "category": "blank",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "coastal",
+      "flavors": [
+        "ocean"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_base_rocky",
+      "filename": "Hex - Base (rocky).png",
+      "terrain_key": "Base",
+      "category": "blank",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "barren",
+      "flavors": [
+        "rocky"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_base_snowy",
+      "filename": "Hex - Base (snowy).png",
+      "terrain_key": "Base",
+      "category": "blank",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_coast_beach_big_n",
+      "filename": "Hex - Coast - Beach (big) N.png",
+      "terrain_key": "Coast - Beach",
+      "category": "coast",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "big"
+      ],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_coast_beach_big_nw",
+      "filename": "Hex - Coast - Beach (big) NW.png",
+      "terrain_key": "Coast - Beach",
+      "category": "coast",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "big"
+      ],
+      "connector_direction": "NW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_coast_beach_big_s",
+      "filename": "Hex - Coast - Beach (big) S.png",
+      "terrain_key": "Coast - Beach",
+      "category": "coast",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "big"
+      ],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_coast_beach_big_sw",
+      "filename": "Hex - Coast - Beach (big) SW.png",
+      "terrain_key": "Coast - Beach",
+      "category": "coast",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "big"
+      ],
+      "connector_direction": "SW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_coast_beach_medium_nw",
+      "filename": "Hex - Coast - Beach (medium) NW.png",
+      "terrain_key": "Coast - Beach",
+      "category": "coast",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "medium"
+      ],
+      "connector_direction": "NW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_coast_beach_medium_sw",
+      "filename": "Hex - Coast - Beach (medium) SW.png",
+      "terrain_key": "Coast - Beach",
+      "category": "coast",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "medium"
+      ],
+      "connector_direction": "SW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_coast_beach_medium_w",
+      "filename": "Hex - Coast - Beach (medium) W.png",
+      "terrain_key": "Coast - Beach",
+      "category": "coast",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "medium"
+      ],
+      "connector_direction": "W",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_coast_beach_small_n",
+      "filename": "Hex - Coast - Beach (small) N.png",
+      "terrain_key": "Coast - Beach",
+      "category": "coast",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "small"
+      ],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_coast_beach_small_nw",
+      "filename": "Hex - Coast - Beach (small) NW.png",
+      "terrain_key": "Coast - Beach",
+      "category": "coast",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "small"
+      ],
+      "connector_direction": "NW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_coast_beach_small_s",
+      "filename": "Hex - Coast - Beach (small) S.png",
+      "terrain_key": "Coast - Beach",
+      "category": "coast",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "small"
+      ],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_coast_beach_small_sw",
+      "filename": "Hex - Coast - Beach (small) SW.png",
+      "terrain_key": "Coast - Beach",
+      "category": "coast",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "small"
+      ],
+      "connector_direction": "SW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_1_n",
+      "filename": "Hex - Dirt Path 1 N.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_1_ne",
+      "filename": "Hex - Dirt Path 1 NE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_1_s",
+      "filename": "Hex - Dirt Path 1 S.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_1_se",
+      "filename": "Hex - Dirt Path 1 SE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_10_n",
+      "filename": "Hex - Dirt Path 10 N.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_10_nw",
+      "filename": "Hex - Dirt Path 10 NW.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_10_s",
+      "filename": "Hex - Dirt Path 10 S.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_10_sw",
+      "filename": "Hex - Dirt Path 10 SW.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_11_n",
+      "filename": "Hex - Dirt Path 11 N.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_11_ne",
+      "filename": "Hex - Dirt Path 11 NE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_11_s",
+      "filename": "Hex - Dirt Path 11 S.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_11_se",
+      "filename": "Hex - Dirt Path 11 SE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_12_e",
+      "filename": "Hex - Dirt Path 12 E.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "E",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_12_n",
+      "filename": "Hex - Dirt Path 12 N.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_13_n",
+      "filename": "Hex - Dirt Path 13 N.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_13_ne",
+      "filename": "Hex - Dirt Path 13 NE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_13_s",
+      "filename": "Hex - Dirt Path 13 S.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_13_se",
+      "filename": "Hex - Dirt Path 13 SE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_2_n",
+      "filename": "Hex - Dirt Path 2 N.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_2_ne",
+      "filename": "Hex - Dirt Path 2 NE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_3_n",
+      "filename": "Hex - Dirt Path 3 N.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_3_ne",
+      "filename": "Hex - Dirt Path 3 NE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_3_se",
+      "filename": "Hex - Dirt Path 3 SE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_4_n",
+      "filename": "Hex - Dirt Path 4 N.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_4_ne",
+      "filename": "Hex - Dirt Path 4 NE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_4_s",
+      "filename": "Hex - Dirt Path 4 S.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_4_se",
+      "filename": "Hex - Dirt Path 4 SE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_5_e",
+      "filename": "Hex - Dirt Path 5 E.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "E",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_5_ne",
+      "filename": "Hex - Dirt Path 5 NE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_5_se",
+      "filename": "Hex - Dirt Path 5 SE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_6_n",
+      "filename": "Hex - Dirt Path 6 N.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_6_ne",
+      "filename": "Hex - Dirt Path 6 NE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_6_s",
+      "filename": "Hex - Dirt Path 6 S.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_6_se",
+      "filename": "Hex - Dirt Path 6 SE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_7_n",
+      "filename": "Hex - Dirt Path 7 N.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_7_nw",
+      "filename": "Hex - Dirt Path 7 NW.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_7_s",
+      "filename": "Hex - Dirt Path 7 S.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_7_se",
+      "filename": "Hex - Dirt Path 7 SE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_7_sw",
+      "filename": "Hex - Dirt Path 7 SW.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_8_nw",
+      "filename": "Hex - Dirt Path 8 NW.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_8_sw",
+      "filename": "Hex - Dirt Path 8 SW.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_8_w",
+      "filename": "Hex - Dirt Path 8 W.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "W",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_9_n",
+      "filename": "Hex - Dirt Path 9 N.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_dirt_path_9_se",
+      "filename": "Hex - Dirt Path 9 SE.png",
+      "terrain_key": "Dirt Path",
+      "category": "path",
+      "is_foundation": false,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_forest_conifer_lush_2",
+      "filename": "Hex - Forest, conifer (lush) 2.png",
+      "terrain_key": "Forest, conifer",
+      "category": "forest",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_forest_conifer_lush",
+      "filename": "Hex - Forest, conifer (lush).png",
+      "terrain_key": "Forest, conifer",
+      "category": "forest",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_forest_conifer_snowy_2",
+      "filename": "Hex - Forest, conifer (snowy) 2.png",
+      "terrain_key": "Forest, conifer",
+      "category": "forest",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_forest_conifer_snowy",
+      "filename": "Hex - Forest, conifer (snowy).png",
+      "terrain_key": "Forest, conifer",
+      "category": "forest",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_forest_deciduous_lush",
+      "filename": "Hex - Forest, deciduous (lush).png",
+      "terrain_key": "Forest, deciduous",
+      "category": "forest",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_forest_mixed_lush",
+      "filename": "Hex - Forest, mixed (lush).png",
+      "terrain_key": "Forest, mixed",
+      "category": "forest",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hill_with_tree_lush",
+      "filename": "Hex - Hill with Tree (lush).png",
+      "terrain_key": "Hill with Tree",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_desert_1",
+      "filename": "Hex - Hills (desert) 1.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_desert_1b",
+      "filename": "Hex - Hills (desert) 1b.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_desert_2",
+      "filename": "Hex - Hills (desert) 2.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_desert_2b",
+      "filename": "Hex - Hills (desert) 2b.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_desert_3",
+      "filename": "Hex - Hills (desert) 3.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_desert_3b",
+      "filename": "Hex - Hills (desert) 3b.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_desert_4",
+      "filename": "Hex - Hills (desert) 4.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_desert_4b",
+      "filename": "Hex - Hills (desert) 4b.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_lush_1",
+      "filename": "Hex - Hills (lush) 1.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_lush_2",
+      "filename": "Hex - Hills (lush) 2.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_lush_3",
+      "filename": "Hex - Hills (lush) 3.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_lush_4",
+      "filename": "Hex - Hills (lush) 4.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_lush_5",
+      "filename": "Hex - Hills (lush) 5.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_snowy_1",
+      "filename": "Hex - Hills (snowy) 1.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_snowy_2",
+      "filename": "Hex - Hills (snowy) 2.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_snowy_3",
+      "filename": "Hex - Hills (snowy) 3.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_snowy_4",
+      "filename": "Hex - Hills (snowy) 4.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_hills_snowy_5",
+      "filename": "Hex - Hills (snowy) 5.png",
+      "terrain_key": "Hills",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountain_volcano_lush_1",
+      "filename": "Hex - Mountain, Volcano (lush) 1.png",
+      "terrain_key": "Mountain, Volcano",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountain_volcano_lush_2",
+      "filename": "Hex - Mountain, Volcano (lush) 2.png",
+      "terrain_key": "Mountain, Volcano",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountain_volcano_rocky_1",
+      "filename": "Hex - Mountain, Volcano (rocky) 1.png",
+      "terrain_key": "Mountain, Volcano",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "barren",
+      "flavors": [
+        "rocky"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountain_volcano_rocky_2",
+      "filename": "Hex - Mountain, Volcano (rocky) 2.png",
+      "terrain_key": "Mountain, Volcano",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "barren",
+      "flavors": [
+        "rocky"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountain_volcano_snowy_1",
+      "filename": "Hex - Mountain, Volcano (snowy) 1.png",
+      "terrain_key": "Mountain, Volcano",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountain_volcano_snowy_2",
+      "filename": "Hex - Mountain, Volcano (snowy) 2.png",
+      "terrain_key": "Mountain, Volcano",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_foothills_lush",
+      "filename": "Hex - Mountains, foothills (lush).png",
+      "terrain_key": "Mountains, foothills",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_foothills_rocky",
+      "filename": "Hex - Mountains, foothills (rocky).png",
+      "terrain_key": "Mountains, foothills",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "barren",
+      "flavors": [
+        "rocky"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_foothills_snowy",
+      "filename": "Hex - Mountains, foothills (snowy).png",
+      "terrain_key": "Mountains, foothills",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_low_lush",
+      "filename": "Hex - Mountains, low (lush).png",
+      "terrain_key": "Mountains, low",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_low_rocky",
+      "filename": "Hex - Mountains, low (rocky).png",
+      "terrain_key": "Mountains, low",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "barren",
+      "flavors": [
+        "rocky"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_low_snowy",
+      "filename": "Hex - Mountains, low (snowy).png",
+      "terrain_key": "Mountains, low",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_medium_lush",
+      "filename": "Hex - Mountains, medium (lush).png",
+      "terrain_key": "Mountains, medium",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_medium_rocky",
+      "filename": "Hex - Mountains, medium (rocky).png",
+      "terrain_key": "Mountains, medium",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "barren",
+      "flavors": [
+        "rocky"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_medium_snowy",
+      "filename": "Hex - Mountains, medium (snowy).png",
+      "terrain_key": "Mountains, medium",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_peak_lush",
+      "filename": "Hex - Mountains, peak (lush).png",
+      "terrain_key": "Mountains, peak",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_peak_rocky",
+      "filename": "Hex - Mountains, peak (rocky).png",
+      "terrain_key": "Mountains, peak",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "barren",
+      "flavors": [
+        "rocky"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_mountains_peak_snowy",
+      "filename": "Hex - Mountains, peak (snowy).png",
+      "terrain_key": "Mountains, peak",
+      "category": "mountain",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 3,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_damp_1",
+      "filename": "Hex - Plains (damp) 1.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_damp_2",
+      "filename": "Hex - Plains (damp) 2.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_damp_3",
+      "filename": "Hex - Plains (damp) 3.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_damp_4",
+      "filename": "Hex - Plains (damp) 4.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_damp_5",
+      "filename": "Hex - Plains (damp) 5.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_desert_4",
+      "filename": "Hex - Plains (desert) 4.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_desert_5",
+      "filename": "Hex - Plains (desert) 5.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_farmland_1",
+      "filename": "Hex - Plains (farmland) 1.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "farmland"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_farmland_2",
+      "filename": "Hex - Plains (farmland) 2.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "farmland"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_farmland_3",
+      "filename": "Hex - Plains (farmland) 3.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "neutral",
+      "flavors": [
+        "farmland"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_lush_1",
+      "filename": "Hex - Plains (lush) 1.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_lush_2",
+      "filename": "Hex - Plains (lush) 2.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_lush_3",
+      "filename": "Hex - Plains (lush) 3.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_lush_4",
+      "filename": "Hex - Plains (lush) 4.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_plains_lush_5",
+      "filename": "Hex - Plains (lush) 5.png",
+      "terrain_key": "Plains",
+      "category": "open",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_river_1_n",
+      "filename": "Hex - River 1 N.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_1_ne",
+      "filename": "Hex - River 1 NE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_1_s",
+      "filename": "Hex - River 1 S.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_1_se",
+      "filename": "Hex - River 1 SE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_10_n",
+      "filename": "Hex - River 10 N.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_10_nw",
+      "filename": "Hex - River 10 NW.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_10_s",
+      "filename": "Hex - River 10 S.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_10_sw",
+      "filename": "Hex - River 10 SW.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_11_n",
+      "filename": "Hex - River 11 N.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_11_ne",
+      "filename": "Hex - River 11 NE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_11_s",
+      "filename": "Hex - River 11 S.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_11_se",
+      "filename": "Hex - River 11 SE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_12_e",
+      "filename": "Hex - River 12 E.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "E",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_12_n",
+      "filename": "Hex - River 12 N.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_13_n",
+      "filename": "Hex - River 13 N.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_13_ne",
+      "filename": "Hex - River 13 NE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_13_s",
+      "filename": "Hex - River 13 S.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_13_se",
+      "filename": "Hex - River 13 SE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_2_n",
+      "filename": "Hex - River 2 N.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_2_ne",
+      "filename": "Hex - River 2 NE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_3_n",
+      "filename": "Hex - River 3 N.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_3_ne",
+      "filename": "Hex - River 3 NE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_3_se",
+      "filename": "Hex - River 3 SE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_4_n",
+      "filename": "Hex - River 4 N.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_4_ne",
+      "filename": "Hex - River 4 NE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_4_s",
+      "filename": "Hex - River 4 S.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_4_se",
+      "filename": "Hex - River 4 SE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_5_e",
+      "filename": "Hex - River 5 E.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "E",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_5_ne",
+      "filename": "Hex - River 5 NE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_5_se",
+      "filename": "Hex - River 5 SE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_6_n",
+      "filename": "Hex - River 6 N.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_6_ne",
+      "filename": "Hex - River 6 NE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_6_s",
+      "filename": "Hex - River 6 S.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_6_se",
+      "filename": "Hex - River 6 SE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_7_n",
+      "filename": "Hex - River 7 N.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_7_nw",
+      "filename": "Hex - River 7 NW.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_7_s",
+      "filename": "Hex - River 7 S.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "S",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_7_se",
+      "filename": "Hex - River 7 SE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_7_sw",
+      "filename": "Hex - River 7 SW.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_8_nw",
+      "filename": "Hex - River 8 NW.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "NW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_8_sw",
+      "filename": "Hex - River 8 SW.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SW",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_8_w",
+      "filename": "Hex - River 8 W.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "W",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_9_n",
+      "filename": "Hex - River 9 N.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "N",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_river_9_se",
+      "filename": "Hex - River 9 SE.png",
+      "terrain_key": "River",
+      "category": "river",
+      "is_foundation": false,
+      "walkable": false,
+      "danger_level": 1,
+      "biome": "neutral",
+      "flavors": [],
+      "connector_direction": "SE",
+      "is_connector_tile": true
+    },
+    {
+      "tile_id": "hex_ruin_desert",
+      "filename": "Hex - Ruin (desert).png",
+      "terrain_key": "Ruin",
+      "category": "ruin",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_ruin_lush",
+      "filename": "Hex - Ruin (lush).png",
+      "terrain_key": "Ruin",
+      "category": "ruin",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_snow_area_1",
+      "filename": "Hex - Snow (area) 1.png",
+      "terrain_key": "Snow",
+      "category": "snow",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "area"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_snow_area_2",
+      "filename": "Hex - Snow (area) 2.png",
+      "terrain_key": "Snow",
+      "category": "snow",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "area"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_snow_drifts_1",
+      "filename": "Hex - Snow (drifts) 1.png",
+      "terrain_key": "Snow",
+      "category": "snow",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "drifts"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_snow_drifts_2",
+      "filename": "Hex - Snow (drifts) 2.png",
+      "terrain_key": "Snow",
+      "category": "snow",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "drifts"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_snow_field_1",
+      "filename": "Hex - Snow (field) 1.png",
+      "terrain_key": "Snow",
+      "category": "snow",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "field"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_snow_field_2",
+      "filename": "Hex - Snow (field) 2.png",
+      "terrain_key": "Snow",
+      "category": "snow",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "field"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_snow_field_3",
+      "filename": "Hex - Snow (field) 3.png",
+      "terrain_key": "Snow",
+      "category": "snow",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "field"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_snow_field_4",
+      "filename": "Hex - Snow (field) 4.png",
+      "terrain_key": "Snow",
+      "category": "snow",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "field"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_snow_field_5",
+      "filename": "Hex - Snow (field) 5.png",
+      "terrain_key": "Snow",
+      "category": "snow",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "field"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_sparse_trees_lush_1",
+      "filename": "Hex - Sparse Trees (lush) 1.png",
+      "terrain_key": "Sparse Trees",
+      "category": "forest",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_sparse_trees_lush_2",
+      "filename": "Hex - Sparse Trees (lush) 2.png",
+      "terrain_key": "Sparse Trees",
+      "category": "forest",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_sparse_trees_snowy",
+      "filename": "Hex - Sparse Trees (snowy).png",
+      "terrain_key": "Sparse Trees",
+      "category": "forest",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 1,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_city_lush",
+      "filename": "Hex - Urban - City (lush).png",
+      "terrain_key": "Urban - City",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_farm_lush",
+      "filename": "Hex - Urban - Farm (lush).png",
+      "terrain_key": "Urban - Farm",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_farmland_lush_1",
+      "filename": "Hex - Urban - Farmland (lush) 1.png",
+      "terrain_key": "Urban - Farmland",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_farmland_lush_2",
+      "filename": "Hex - Urban - Farmland (lush) 2.png",
+      "terrain_key": "Urban - Farmland",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_farmland_lush_3",
+      "filename": "Hex - Urban - Farmland (lush) 3.png",
+      "terrain_key": "Urban - Farmland",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_modern_town_abandoned_lush_1",
+      "filename": "Hex - Urban - Modern Town, abandoned (lush) 1.png",
+      "terrain_key": "Urban - Modern Town, abandoned",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_modern_town_abandoned_lush_2",
+      "filename": "Hex - Urban - Modern Town, abandoned (lush) 2.png",
+      "terrain_key": "Urban - Modern Town, abandoned",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_modern_town_inhabited_lush_1",
+      "filename": "Hex - Urban - Modern Town, inhabited (lush) 1.png",
+      "terrain_key": "Urban - Modern Town, inhabited",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_modern_town_inhabited_lush_2",
+      "filename": "Hex - Urban - Modern Town, inhabited (lush) 2.png",
+      "terrain_key": "Urban - Modern Town, inhabited",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_modern_town_lumber_yard_lush",
+      "filename": "Hex - Urban - Modern Town, lumber yard (lush).png",
+      "terrain_key": "Urban - Modern Town, lumber yard",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_monastery_lush",
+      "filename": "Hex - Urban - Monastery (lush).png",
+      "terrain_key": "Urban - Monastery",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_tower_lush",
+      "filename": "Hex - Urban - Tower (lush).png",
+      "terrain_key": "Urban - Tower",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_urban_town_lush",
+      "filename": "Hex - Urban - Town (lush).png",
+      "terrain_key": "Urban - Town",
+      "category": "settlement",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 0,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_ocean_soft_waves_1",
+      "filename": "Hex - Water - Ocean (soft waves) 1.png",
+      "terrain_key": "Water - Ocean",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "soft waves"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_ocean_soft_waves_2",
+      "filename": "Hex - Water - Ocean (soft waves) 2.png",
+      "terrain_key": "Water - Ocean",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "soft waves"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_ocean_still_water_1",
+      "filename": "Hex - Water - Ocean (still water) 1.png",
+      "terrain_key": "Water - Ocean",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "still water"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_ocean_still_water_2",
+      "filename": "Hex - Water - Ocean (still water) 2.png",
+      "terrain_key": "Water - Ocean",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "still water"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_ocean_still_water_3",
+      "filename": "Hex - Water - Ocean (still water) 3.png",
+      "terrain_key": "Water - Ocean",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "still water"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_ocean_still_water_4",
+      "filename": "Hex - Water - Ocean (still water) 4.png",
+      "terrain_key": "Water - Ocean",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "still water"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_ocean_still_water_5",
+      "filename": "Hex - Water - Ocean (still water) 5.png",
+      "terrain_key": "Water - Ocean",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "still water"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_ocean_waves_1",
+      "filename": "Hex - Water - Ocean (waves) 1.png",
+      "terrain_key": "Water - Ocean",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "waves"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_ocean_waves_2",
+      "filename": "Hex - Water - Ocean (waves) 2.png",
+      "terrain_key": "Water - Ocean",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "waves"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_swamp_soft_waves_1",
+      "filename": "Hex - Water - Swamp (soft waves) 1.png",
+      "terrain_key": "Water - Swamp",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "soft waves"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_swamp_soft_waves_2",
+      "filename": "Hex - Water - Swamp (soft waves) 2.png",
+      "terrain_key": "Water - Swamp",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "soft waves"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_swamp_still_water_1",
+      "filename": "Hex - Water - Swamp (still water) 1.png",
+      "terrain_key": "Water - Swamp",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "still water"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_swamp_still_water_2",
+      "filename": "Hex - Water - Swamp (still water) 2.png",
+      "terrain_key": "Water - Swamp",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "still water"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_swamp_still_water_3",
+      "filename": "Hex - Water - Swamp (still water) 3.png",
+      "terrain_key": "Water - Swamp",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "still water"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_swamp_still_water_4",
+      "filename": "Hex - Water - Swamp (still water) 4.png",
+      "terrain_key": "Water - Swamp",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "still water"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_swamp_still_water_5",
+      "filename": "Hex - Water - Swamp (still water) 5.png",
+      "terrain_key": "Water - Swamp",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "still water"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_swamp_waves_1",
+      "filename": "Hex - Water - Swamp (waves) 1.png",
+      "terrain_key": "Water - Swamp",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "waves"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_water_swamp_waves_2",
+      "filename": "Hex - Water - Swamp (waves) 2.png",
+      "terrain_key": "Water - Swamp",
+      "category": "water",
+      "is_foundation": true,
+      "walkable": false,
+      "danger_level": 2,
+      "biome": "neutral",
+      "flavors": [
+        "waves"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_wetlands_damp_1",
+      "filename": "Hex - Wetlands (damp) 1.png",
+      "terrain_key": "Wetlands",
+      "category": "wetland",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_wetlands_damp_2",
+      "filename": "Hex - Wetlands (damp) 2.png",
+      "terrain_key": "Wetlands",
+      "category": "wetland",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_wetlands_damp_3",
+      "filename": "Hex - Wetlands (damp) 3.png",
+      "terrain_key": "Wetlands",
+      "category": "wetland",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_wetlands_damp_4",
+      "filename": "Hex - Wetlands (damp) 4.png",
+      "terrain_key": "Wetlands",
+      "category": "wetland",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_wetlands_damp_5",
+      "filename": "Hex - Wetlands (damp) 5.png",
+      "terrain_key": "Wetlands",
+      "category": "wetland",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_wetlands_damp_6",
+      "filename": "Hex - Wetlands (damp) 6.png",
+      "terrain_key": "Wetlands",
+      "category": "wetland",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    },
+    {
+      "tile_id": "hex_wetlands_damp_7",
+      "filename": "Hex - Wetlands (damp) 7.png",
+      "terrain_key": "Wetlands",
+      "category": "wetland",
+      "is_foundation": true,
+      "walkable": true,
+      "danger_level": 2,
+      "biome": "humid",
+      "flavors": [
+        "damp"
+      ],
+      "connector_direction": null,
+      "is_connector_tile": false
+    }
+  ],
+  "overlay_objects": [
+    {
+      "object_id": "banner_1_blue",
+      "filename": "Banner 1 (blue).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_1_red",
+      "filename": "Banner 1 (red).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_1_white",
+      "filename": "Banner 1 (white).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "white"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_2_blue",
+      "filename": "Banner 2 (blue).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_2_red",
+      "filename": "Banner 2 (red).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_2_white",
+      "filename": "Banner 2 (white).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "white"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_3_blue",
+      "filename": "Banner 3 (blue).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_3_red",
+      "filename": "Banner 3 (red).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_3_white",
+      "filename": "Banner 3 (white).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "white"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_4_blue",
+      "filename": "Banner 4 (blue).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_4_red",
+      "filename": "Banner 4 (red).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_4_white",
+      "filename": "Banner 4 (white).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "white"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_5_blue",
+      "filename": "Banner 5 (blue).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_5_red",
+      "filename": "Banner 5 (red).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_5_white",
+      "filename": "Banner 5 (white).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "white"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_6_blue",
+      "filename": "Banner 6 (blue).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_6_red",
+      "filename": "Banner 6 (red).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "banner_6_white",
+      "filename": "Banner 6 (white).png",
+      "top_category": "Banner",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "white"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_1_blue",
+      "filename": "Buildings - City Building 1 (blue).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_1_red",
+      "filename": "Buildings - City Building 1 (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_2_blue",
+      "filename": "Buildings - City Building 2 (blue).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_2_red",
+      "filename": "Buildings - City Building 2 (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_3_blue",
+      "filename": "Buildings - City Building 3 (blue).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_3_red",
+      "filename": "Buildings - City Building 3 (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_4_blue",
+      "filename": "Buildings - City Building 4 (blue).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_4_red",
+      "filename": "Buildings - City Building 4 (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_5_blue",
+      "filename": "Buildings - City Building 5 (blue).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_5_red",
+      "filename": "Buildings - City Building 5 (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_6_blue",
+      "filename": "Buildings - City Building 6 (blue).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_building_6_red",
+      "filename": "Buildings - City Building 6 (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_statue",
+      "filename": "Buildings - City Statue.png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_with_wall_blue",
+      "filename": "Buildings - City with Wall (blue).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_with_wall_red",
+      "filename": "Buildings - City with Wall (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_with_no_walls_blue",
+      "filename": "Buildings - City with no Walls (blue).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_city_with_no_walls_red",
+      "filename": "Buildings - City with no Walls (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_desert_building_bright_1",
+      "filename": "Buildings - Desert Building (bright) 1.png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "arid",
+      "flavors": [
+        "bright"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_desert_building_bright_2",
+      "filename": "Buildings - Desert Building (bright) 2.png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "arid",
+      "flavors": [
+        "bright"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_desert_building_bright_3",
+      "filename": "Buildings - Desert Building (bright) 3.png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "arid",
+      "flavors": [
+        "bright"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_desert_building_sandstone_1",
+      "filename": "Buildings - Desert Building (sandstone) 1.png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "arid",
+      "flavors": [
+        "sandstone"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_desert_building_sandstone_2",
+      "filename": "Buildings - Desert Building (sandstone) 2.png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "arid",
+      "flavors": [
+        "sandstone"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_desert_building_sandstone_3",
+      "filename": "Buildings - Desert Building (sandstone) 3.png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "arid",
+      "flavors": [
+        "sandstone"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_farmhouse_lush",
+      "filename": "Buildings - Farmhouse (lush).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_farmland_lush",
+      "filename": "Buildings - Farmland (lush).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_farmland_fence_lush",
+      "filename": "Buildings - Farmland Fence (lush).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_jetty_boat",
+      "filename": "Buildings - Jetty (boat).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "boat"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_jetty_ship",
+      "filename": "Buildings - Jetty (ship).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "ship"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_jetty",
+      "filename": "Buildings - Jetty.png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_monastery_blue",
+      "filename": "Buildings - Monastery (blue).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_monastery_red",
+      "filename": "Buildings - Monastery (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_tower_blue",
+      "filename": "Buildings - Tower (blue).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "blue"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_tower_red",
+      "filename": "Buildings - Tower (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_town_red",
+      "filename": "Buildings - Town (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_town_building_1_red",
+      "filename": "Buildings - Town Building 1 (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_town_building_2_red",
+      "filename": "Buildings - Town Building 2 (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_town_building_3_red",
+      "filename": "Buildings - Town Building 3 (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_town_building_4_red",
+      "filename": "Buildings - Town Building 4 (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_town_building_5_red",
+      "filename": "Buildings - Town Building 5 (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "buildings_windmill_red",
+      "filename": "Buildings - Windmill (red).png",
+      "top_category": "Buildings",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "red"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "clouds_1",
+      "filename": "Clouds 1.png",
+      "top_category": "Clouds",
+      "layer": "fx",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "clouds_2",
+      "filename": "Clouds 2.png",
+      "top_category": "Clouds",
+      "layer": "fx",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "clouds_3",
+      "filename": "Clouds 3.png",
+      "top_category": "Clouds",
+      "layer": "fx",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "clouds_4",
+      "filename": "Clouds 4.png",
+      "top_category": "Clouds",
+      "layer": "fx",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "clouds_5",
+      "filename": "Clouds 5.png",
+      "top_category": "Clouds",
+      "layer": "fx",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "clouds_6",
+      "filename": "Clouds 6.png",
+      "top_category": "Clouds",
+      "layer": "fx",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "clouds_7",
+      "filename": "Clouds 7.png",
+      "top_category": "Clouds",
+      "layer": "fx",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "clouds_8",
+      "filename": "Clouds 8.png",
+      "top_category": "Clouds",
+      "layer": "fx",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_bush_1_lush",
+      "filename": "Foliage - Bush 1 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_bush_2_lush",
+      "filename": "Foliage - Bush 2 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_bush_3_lush",
+      "filename": "Foliage - Bush 3 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_bush_4_lush",
+      "filename": "Foliage - Bush 4 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_bush_5_lush",
+      "filename": "Foliage - Bush 5 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_grass_patch_1_lush",
+      "filename": "Foliage - Grass Patch 1 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_grass_patch_2_lush",
+      "filename": "Foliage - Grass Patch 2 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_grass_patch_3_lush",
+      "filename": "Foliage - Grass Patch 3 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_grass_patch_4_lush",
+      "filename": "Foliage - Grass Patch 4 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_grass_patch_5_lush",
+      "filename": "Foliage - Grass Patch 5 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_grass_patch_6_lush",
+      "filename": "Foliage - Grass Patch 6 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_grass_patch_7_lush",
+      "filename": "Foliage - Grass Patch 7 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_grass_patch_8",
+      "filename": "Foliage - Grass Patch 8.png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_grass_patch_9",
+      "filename": "Foliage - Grass Patch 9.png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_conifer_1_cold",
+      "filename": "Foliage - Tree, conifer 1 (cold).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "frozen",
+      "flavors": [
+        "cold"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_conifer_2_cold",
+      "filename": "Foliage - Tree, conifer 2 (cold).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "frozen",
+      "flavors": [
+        "cold"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_conifer_3_cold",
+      "filename": "Foliage - Tree, conifer 3 (cold).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "frozen",
+      "flavors": [
+        "cold"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_1_lush",
+      "filename": "Foliage - Tree, deciduous 1 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_10_lush",
+      "filename": "Foliage - Tree, deciduous 10 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_11_lush",
+      "filename": "Foliage - Tree, deciduous 11 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_12_lush",
+      "filename": "Foliage - Tree, deciduous 12 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_13_lush",
+      "filename": "Foliage - Tree, deciduous 13 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_14_lush",
+      "filename": "Foliage - Tree, deciduous 14 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_2_lush",
+      "filename": "Foliage - Tree, deciduous 2 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_3_lush",
+      "filename": "Foliage - Tree, deciduous 3 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_4_lush",
+      "filename": "Foliage - Tree, deciduous 4 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_5_lush",
+      "filename": "Foliage - Tree, deciduous 5 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_6_lush",
+      "filename": "Foliage - Tree, deciduous 6 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_7_lush",
+      "filename": "Foliage - Tree, deciduous 7 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_8_lush",
+      "filename": "Foliage - Tree, deciduous 8 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_deciduous_9_lush",
+      "filename": "Foliage - Tree, deciduous 9 (lush).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_palm_1_bright",
+      "filename": "Foliage - Tree, palm 1 (bright).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "arid",
+      "flavors": [
+        "bright"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_palm_2_bright",
+      "filename": "Foliage - Tree, palm 2 (bright).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "arid",
+      "flavors": [
+        "bright"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_willow_1_swamp",
+      "filename": "Foliage - Tree, willow 1 (swamp).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "wetland",
+      "flavors": [
+        "swamp"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "foliage_tree_willow_2_swamp",
+      "filename": "Foliage - Tree, willow 2 (swamp).png",
+      "top_category": "Foliage",
+      "layer": "decoration",
+      "blocks_tile": false,
+      "biome": "wetland",
+      "flavors": [
+        "swamp"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_1_desert",
+      "filename": "Hill 1 (desert).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_1_lush",
+      "filename": "Hill 1 (lush).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_1_rocky",
+      "filename": "Hill 1 (rocky).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "barren",
+      "flavors": [
+        "rocky"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_1_snowy",
+      "filename": "Hill 1 (snowy).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_2_desert",
+      "filename": "Hill 2 (desert).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_2_lush",
+      "filename": "Hill 2 (lush).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_2_rocky",
+      "filename": "Hill 2 (rocky).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "barren",
+      "flavors": [
+        "rocky"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_2_snowy",
+      "filename": "Hill 2 (snowy).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_3_desert",
+      "filename": "Hill 3 (desert).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_3_lush",
+      "filename": "Hill 3 (lush).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_3_rocky",
+      "filename": "Hill 3 (rocky).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "barren",
+      "flavors": [
+        "rocky"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_3_snowy",
+      "filename": "Hill 3 (snowy).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_4_desert",
+      "filename": "Hill 4 (desert).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "arid",
+      "flavors": [
+        "desert"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_4_lush",
+      "filename": "Hill 4 (lush).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "temperate",
+      "flavors": [
+        "lush"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_4_rocky",
+      "filename": "Hill 4 (rocky).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "barren",
+      "flavors": [
+        "rocky"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "hill_4_snowy",
+      "filename": "Hill 4 (snowy).png",
+      "top_category": "Hill",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_cave",
+      "filename": "Icon - Cave.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_coins",
+      "filename": "Icon - Coins.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_house",
+      "filename": "Icon - House.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_paw_print_round",
+      "filename": "Icon - Paw Print Round.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_paw_print_sharp",
+      "filename": "Icon - Paw Print Sharp.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_ruins",
+      "filename": "Icon - Ruins.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_skull",
+      "filename": "Icon - Skull.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_star",
+      "filename": "Icon - Star.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_swords",
+      "filename": "Icon - Swords.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_tent",
+      "filename": "Icon - Tent.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_tower_2",
+      "filename": "Icon - Tower 2.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "icon_tower",
+      "filename": "Icon - Tower.png",
+      "top_category": "Icon",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "lake",
+      "filename": "Lake.png",
+      "top_category": "Lake",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "oasis",
+      "filename": "Oasis.png",
+      "top_category": "Oasis",
+      "layer": "terrain_feature",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner_cave",
+      "filename": "Pins - Banner (cave).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "cave"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner_coins",
+      "filename": "Pins - Banner (coins).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "coins"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner_house",
+      "filename": "Pins - Banner (house).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "house"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner_paw_print_round",
+      "filename": "Pins - Banner (paw print round).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "paw print round"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner_paw_print_sharp",
+      "filename": "Pins - Banner (paw print sharp).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "paw print sharp"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner_ruins",
+      "filename": "Pins - Banner (ruins).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "ruins"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner_skull",
+      "filename": "Pins - Banner (skull).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "skull"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner_star",
+      "filename": "Pins - Banner (star).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "star"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner_swords",
+      "filename": "Pins - Banner (swords).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "swords"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner_tent",
+      "filename": "Pins - Banner (tent).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "tent"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner_tower",
+      "filename": "Pins - Banner (tower).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "tower"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_banner",
+      "filename": "Pins - Banner.png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_party_1",
+      "filename": "Pins - Party 1.png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_party_2",
+      "filename": "Pins - Party 2.png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_cave",
+      "filename": "Pins - Pedestal, wood (cave).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "cave"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_coins",
+      "filename": "Pins - Pedestal, wood (coins).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "coins"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_house",
+      "filename": "Pins - Pedestal, wood (house).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "house"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_party_1",
+      "filename": "Pins - Pedestal, wood (party 1).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "party 1"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_party_2",
+      "filename": "Pins - Pedestal, wood (party 2).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "party 2"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_paw_print_round",
+      "filename": "Pins - Pedestal, wood (paw print round).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "paw print round"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_paw_print_sharp",
+      "filename": "Pins - Pedestal, wood (paw print sharp).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "paw print sharp"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_ruins",
+      "filename": "Pins - Pedestal, wood (ruins).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "ruins"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_skull",
+      "filename": "Pins - Pedestal, wood (skull).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "skull"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_star",
+      "filename": "Pins - Pedestal, wood (star).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "star"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_swords",
+      "filename": "Pins - Pedestal, wood (swords).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "swords"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_tent",
+      "filename": "Pins - Pedestal, wood (tent).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "tent"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood_tower",
+      "filename": "Pins - Pedestal, wood (tower).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "tower"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pedestal_wood",
+      "filename": "Pins - Pedestal, wood.png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pin_blue_large",
+      "filename": "Pins - Pin, blue (large).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "large"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pin_blue",
+      "filename": "Pins - Pin, blue.png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pin_green_large",
+      "filename": "Pins - Pin, green (large).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "large"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pin_green",
+      "filename": "Pins - Pin, green.png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pin_red_large",
+      "filename": "Pins - Pin, red (large).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "large"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pin_red",
+      "filename": "Pins - Pin, red.png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pin_white_large",
+      "filename": "Pins - Pin, white (large).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "large"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pin_white",
+      "filename": "Pins - Pin, white.png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pin_yellow_large",
+      "filename": "Pins - Pin, yellow (large).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "large"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_pin_yellow",
+      "filename": "Pins - Pin, yellow.png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_blank",
+      "filename": "Pins - You're Here, red (blank).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "blank"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_cave",
+      "filename": "Pins - You're Here, red (cave).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "cave"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_coins",
+      "filename": "Pins - You're Here, red (coins).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "coins"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_house",
+      "filename": "Pins - You're Here, red (house).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "house"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_paw_print_round",
+      "filename": "Pins - You're Here, red (paw print round).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "paw print round"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_paw_print_sharp",
+      "filename": "Pins - You're Here, red (paw print sharp).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "paw print sharp"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_ruins",
+      "filename": "Pins - You're Here, red (ruins).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "ruins"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_skull",
+      "filename": "Pins - You're Here, red (skull).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "skull"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_star",
+      "filename": "Pins - You're Here, red (star).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "star"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_swords",
+      "filename": "Pins - You're Here, red (swords).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "swords"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_tent",
+      "filename": "Pins - You're Here, red (tent).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "tent"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "pins_you_re_here_red_tower",
+      "filename": "Pins - You're Here, red (tower).png",
+      "top_category": "Pins",
+      "layer": "ui_marker",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "tower"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "structures_cave_sand",
+      "filename": "Structures - Cave (sand).png",
+      "top_category": "Structures",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "sand"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "structures_cave_sandstone",
+      "filename": "Structures - Cave (sandstone).png",
+      "top_category": "Structures",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "arid",
+      "flavors": [
+        "sandstone"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "structures_cave_snowy",
+      "filename": "Structures - Cave (snowy).png",
+      "top_category": "Structures",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "frozen",
+      "flavors": [
+        "snowy"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "structures_cave_stone",
+      "filename": "Structures - Cave (stone).png",
+      "top_category": "Structures",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "stone"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "structures_gate_sandstone",
+      "filename": "Structures - Gate (sandstone).png",
+      "top_category": "Structures",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "arid",
+      "flavors": [
+        "sandstone"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "structures_gate_stone",
+      "filename": "Structures - Gate (stone).png",
+      "top_category": "Structures",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "stone"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "structures_ruins_stone",
+      "filename": "Structures - Ruins (stone).png",
+      "top_category": "Structures",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "stone"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "structures_small_ruins_stone",
+      "filename": "Structures - Small Ruins (stone).png",
+      "top_category": "Structures",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "stone"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "structures_tent_tarp",
+      "filename": "Structures - Tent (tarp).png",
+      "top_category": "Structures",
+      "layer": "structure",
+      "blocks_tile": true,
+      "biome": "neutral",
+      "flavors": [
+        "tarp"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_1_flex_left_extension",
+      "filename": "Title Banner 1 (flex) left extension.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_1_flex_left",
+      "filename": "Title Banner 1 (flex) left.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_1_flex_mid",
+      "filename": "Title Banner 1 (flex) mid.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_1_flex_right_extension",
+      "filename": "Title Banner 1 (flex) right extension.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_1_flex_right",
+      "filename": "Title Banner 1 (flex) right.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_1_long",
+      "filename": "Title Banner 1 (long).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "long"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_1_small",
+      "filename": "Title Banner 1 (small).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "small"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_2_flex_left",
+      "filename": "Title Banner 2 (flex) left.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_2_flex_mid",
+      "filename": "Title Banner 2 (flex) mid.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_2_flex_right",
+      "filename": "Title Banner 2 (flex) right.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_2_long",
+      "filename": "Title Banner 2 (long).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "long"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_2_small",
+      "filename": "Title Banner 2 (small).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "small"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_3_flex_left",
+      "filename": "Title Banner 3 (flex) left.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_3_flex_mid",
+      "filename": "Title Banner 3 (flex) mid.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_3_flex_right",
+      "filename": "Title Banner 3 (flex) right.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_3_long",
+      "filename": "Title Banner 3 (long).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "long"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_3_small",
+      "filename": "Title Banner 3 (small).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "small"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_4_flex_left",
+      "filename": "Title Banner 4 (flex) left.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_4_flex_mid",
+      "filename": "Title Banner 4 (flex) mid.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_4_flex_right",
+      "filename": "Title Banner 4 (flex) right.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_4_long",
+      "filename": "Title Banner 4 (long).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "long"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_4_small",
+      "filename": "Title Banner 4 (small).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "small"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_5_flex_left",
+      "filename": "Title Banner 5 (flex) left.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_5_flex_mid",
+      "filename": "Title Banner 5 (flex) mid.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_5_flex_right",
+      "filename": "Title Banner 5 (flex) right.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_5_long",
+      "filename": "Title Banner 5 (long).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "long"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_5_small",
+      "filename": "Title Banner 5 (small).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "small"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_6_flex_left",
+      "filename": "Title Banner 6 (flex) left.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_6_flex_mid",
+      "filename": "Title Banner 6 (flex) mid.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_6_flex_right",
+      "filename": "Title Banner 6 (flex) right.png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "flex"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_6_long",
+      "filename": "Title Banner 6 (long).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "long"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "title_banner_6_small",
+      "filename": "Title Banner 6 (small).png",
+      "top_category": "Title",
+      "layer": "ui",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [
+        "small"
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "vehicle_space_rover_1",
+      "filename": "Vehicle - Space Rover 1.png",
+      "top_category": "Vehicle",
+      "layer": "object",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "vehicles_boat_1",
+      "filename": "Vehicles - Boat 1.png",
+      "top_category": "Vehicles",
+      "layer": "object",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "vehicles_cart_1",
+      "filename": "Vehicles - Cart 1.png",
+      "top_category": "Vehicles",
+      "layer": "object",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "vehicles_crashed_spaceship_2",
+      "filename": "Vehicles - Crashed Spaceship 2.png",
+      "top_category": "Vehicles",
+      "layer": "object",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    },
+    {
+      "object_id": "vehicles_sailship_1",
+      "filename": "Vehicles - Sailship 1.png",
+      "top_category": "Vehicles",
+      "layer": "object",
+      "blocks_tile": false,
+      "biome": "neutral",
+      "flavors": [],
+      "needs_manual_review": false
+    }
+  ]
+}
